@@ -8,7 +8,7 @@ import java.net.*;
 
 /**
  * Progetto ILN
- * Copyright (C) 2003 Monsieur Legrand
+ * Copyright (C) 2003 Alessandro Iacuelli
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -31,7 +31,7 @@ import java.net.*;
  * Modello di comportamento di un analizzatore generico.<BR>
  * Tutti gli analizzatori devono per forza ereditare da questa 
  * classe.<BR>
- * Il Client IRC dichiarera' sempre un puntatore a superclasse,
+ * Il Client dichiarera' sempre un puntatore a superclasse,
  * cioe' un puntatore ad Analyzer, poi grazie al polimorfismo 
  * sara' istanziato un analizzatore reale.<br>
  * In alternativa si puo' usare questo analizzatore generico.<p>
@@ -41,7 +41,7 @@ import java.net.*;
  * sottoclasse).<br>
  * 
  *
- * @author  Monsieur Legrand
+ * @author  Alessandro Iacuelli
  * @version 1.4 rev 2
  * @date    14 gennaio 2004
  */
@@ -55,7 +55,7 @@ public class Analyzer
     Animatore generResponse;
 
     /**
-     * Costruttore.<br>
+     * Costruttore con argomenti.<br>
      * A seconda del tipo di personalita' richiesta verra' 
      * istanziato un diverso Animatore.
      *
