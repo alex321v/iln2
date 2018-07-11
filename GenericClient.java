@@ -7,7 +7,7 @@ import java.io.*;
 
 /**
  * Progetto ILN
- * Copyright (C) 2003 Monsieur Legrand
+ * Copyright (C) 2003 Alessandro Iacuelli
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -31,7 +31,7 @@ import java.io.*;
  * I client reali devono reimplementare il metodo <code>gestione</code>
  * ed eventualmente il metodo <code>autenticate</code>
  *
- * @author  Monsieur Legrand
+ * @author  Alessandro Iacuelli
  * @version 1.2 rev 1
  * @date    02 giugno 2003
  */
